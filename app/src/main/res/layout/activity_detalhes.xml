@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3792d6"
+    android:padding="5dp"
+    tools:context="joaopaulo.com.br.emformaagora.DetalhesActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Levantamento de Peso"
+        android:textColor="#FFF"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imgExecicio"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@drawable/weight" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_coners"
+        android:backgroundTint="#73d5dce1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Marque ao completar!"
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="160dp"
+            android:text="Exericio  1"
+            android:textColor="#FFF"
+            android:textColorLink="#FFF"
+            android:textSize="20dp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="160dp"
+            android:text="Exericio  2"
+            android:textColor="#FFF"
+            android:textColorLink="#FFF"
+            android:textSize="20dp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="160dp"
+            android:text="Exericio  3"
+            android:textColor="#FFF"
+            android:textColorLink="#FFF"
+            android:textSize="20dp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="160dp"
+            android:text="Exericio  4"
+            android:textColor="#FFF"
+            android:textColorLink="#FFF"
+            android:textSize="20dp"
+            app:buttonTint="#FFF" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="160dp"
+            android:text="Exericio  5"
+            android:textColor="#FFF"
+            android:textColorLink="#FFF"
+            android:textSize="20dp"
+            app:buttonTint="#FFF" />
+
+    </LinearLayout>
+</LinearLayout>
